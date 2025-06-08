@@ -105,7 +105,7 @@ Jika ingin menjalankan sistem secara lokal:
    ```pip install streamlit pandas numpy scikit-learn joblib```
 2. Letakkan file berikut dalam satu direktori:
    - app.py (file Streamlit utama)
-   - rf.pkl (model machine learning Random Forest)
+   - model.pkl (model machine learning Random Forest)
    - scaler.pkl (standarisasi fitur numerik)
 3. Jalankan dengan perintah:
 
