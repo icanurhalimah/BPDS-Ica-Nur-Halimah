@@ -84,12 +84,14 @@ Dataset digunakan dalam format `.csv` dan dimuat langsung menggunakan pustaka `p
 ## Business Dashboard
 Sebagai bagian dari proyek prediksi dropout mahasiswa di Jaya Jaya Institut, telah dibuat sebuah **dashboard interaktif** menggunakan **Google Looker Studio**. Dashboard ini berfungsi sebagai alat bantu visualisasi data yang memudahkan tim akademik dan manajemen dalam memantau tren dropout serta melakukan intervensi berbasis data.
 
-### 🎯 Tujuan Dashboard
+<img src="https://github.com/user-attachments/assets/59ffdf5b-e51f-4855-b384-aa49c2e28779" alt="Dashboard" title="Dashboard">
+
+### Tujuan Dashboard
 - Menyediakan **gambaran visual menyeluruh** tentang status akhir mahasiswa.
 - Membantu **mengidentifikasi pola dropout** berdasarkan berbagai faktor.
 - Mempermudah pengambilan keputusan dalam strategi **retensi mahasiswa**.
 
-### 🧩 Fitur-Fitur Utama
+### Fitur-Fitur Utama
 
 1. **Dropdown Filter**  
    Pengguna dapat memfilter tampilan data berdasarkan variabel penting seperti:
@@ -106,10 +108,10 @@ Sebagai bagian dari proyek prediksi dropout mahasiswa di Jaya Jaya Institut, tel
    - **Dropout by Curricular Units Evaluations**: Mahasiswa yang tidak aktif mengikuti evaluasi semester 1 cenderung lebih berisiko dropout.
    - **Heatmap by Age at Enrollment**: Visualisasi intensitas dropout per kelompok usia.
 
-### 🌐 Akses Dashboard
+### Akses Dashboard
 Dashboard ini dibuat menggunakan **Google Looker Studio** dan dapat diakses secara online melalui tautan berikut:
 
-👉 **[Tautan Looker Studio](https://lookerstudio.google.com/reporting/590c356b-ef78-4ff7-9688-a6c2a51417a1/page/2mPNF)**
+**[Tautan Looker Studio](https://lookerstudio.google.com/reporting/590c356b-ef78-4ff7-9688-a6c2a51417a1/page/2mPNF)**
 
 Dashboard ini diharapkan menjadi alat bantu penting dalam **transformasi digital bidang akademik**, memungkinkan pengambilan kebijakan yang **lebih cepat, tepat, dan berbasis data real-time**.
 
@@ -141,12 +143,42 @@ Jika ingin menjalankan sistem secara lokal:
    ```streamlit run app.py```
 
 ## Conclusion
-Proyek ini bertujuan untuk membantu Jaya Jaya Institut dalam mengidentifikasi mahasiswa yang berisiko tinggi mengalami dropout sejak dini. Dengan memanfaatkan pendekatan data science dan machine learning, institusi kini memiliki landasan analitis untuk memahami pola-pola yang terkait dengan kegagalan studi.
 
-Beberapa kesimpulan utama yang diperoleh:
-1. 
+Proyek ini berhasil membuktikan bahwa pendekatan berbasis data science dapat digunakan secara efektif untuk membantu institusi pendidikan mendeteksi risiko mahasiswa yang berpotensi mengalami dropout sejak dini.
+
+Beberapa poin kesimpulan utama:
+
+1. **Model klasifikasi yang dibangun (LightGBM)** mampu mengidentifikasi mahasiswa dropout dengan tingkat akurasi yang baik, serta menyoroti fitur-fitur kunci seperti nilai semester awal, usia saat masuk, status keuangan, dan aktivitas perkuliahan.
+
+2. **Dashboard interaktif berbasis Looker Studio** memungkinkan visualisasi tren dropout secara real-time dan dapat digunakan oleh pihak akademik tanpa latar belakang teknis yang kuat.
+
+3. Institusi kini memiliki **alat bantu pengambilan keputusan berbasis data** yang bisa dimanfaatkan untuk:
+   - Memberikan bimbingan akademik secara tepat sasaran,
+   - Menyusun kebijakan pembinaan dan intervensi dini,
+   - Meningkatkan efisiensi alokasi sumber daya,
+   - Meningkatkan angka kelulusan dan citra institusi secara keseluruhan.
+
+4. Proyek ini membuka peluang untuk pengembangan lanjutan, seperti integrasi ke sistem informasi akademik kampus dan penerapan sistem peringatan dini berbasis model prediktif.
+
+Dengan ini, Jaya Jaya Institut mengambil langkah maju dalam **transformasi digital pendidikan** untuk membangun ekosistem akademik yang lebih adaptif, prediktif, dan proaktif.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+Berikut beberapa rekomendasi strategis yang dapat dilakukan oleh Jaya Jaya Institut untuk menindaklanjuti hasil proyek dan mengatasi permasalahan dropout mahasiswa:
+
+- **Action Item 1: Implementasi Sistem Prediksi Dropout di Sistem Akademik**  
+  Integrasikan model machine learning ke dalam sistem informasi akademik kampus (SIAKAD) untuk mendeteksi mahasiswa berisiko tinggi secara otomatis setiap awal semester.
+
+- **Action Item 2: Buat Program Intervensi Khusus bagi Mahasiswa Berisiko**  
+  Sediakan program pendampingan akademik dan psikologis, seperti mentoring, konseling, atau kelas remedial bagi mahasiswa yang terdeteksi berisiko tinggi berdasarkan output model.
+
+- **Action Item 3: Monitoring dan Evaluasi Berkala Melalui Dashboard**  
+  Gunakan dashboard Looker Studio secara aktif dalam rapat akademik untuk memantau perkembangan dropout secara real-time dan mengambil kebijakan berbasis data.
+
+- **Action Item 4: Penguatan Sosialisasi dan Orientasi Mahasiswa Baru**  
+  Berikan program orientasi yang lebih intensif kepada mahasiswa baru untuk memperkuat kesiapan akademik dan sosial, khususnya bagi mahasiswa dengan profil risiko tinggi.
+
+- **Action Item 5: Kolaborasi Antara Bagian Akademik dan Biro Kemahasiswaan**  
+  Bentuk tim lintas unit untuk menindaklanjuti output sistem prediksi dengan cepat dan menyusun strategi intervensi berbasis latar belakang individual mahasiswa.
+
+- **Action Item 6: Evaluasi dan Pelatihan Berbasis Data untuk Dosen Wali**  
+  Libatkan dosen wali dalam pelatihan analisis data sederhana dan cara membaca output sistem prediksi untuk meningkatkan efektivitas pendampingan akademik.
