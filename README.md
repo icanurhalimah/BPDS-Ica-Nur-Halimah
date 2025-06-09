@@ -82,7 +82,36 @@ Dataset digunakan dalam format `.csv` dan dimuat langsung menggunakan pustaka `p
     ```pip install -r requirements.txt```
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Sebagai bagian dari proyek prediksi dropout mahasiswa di Jaya Jaya Institut, telah dibuat sebuah **dashboard interaktif** menggunakan **Google Looker Studio**. Dashboard ini berfungsi sebagai alat bantu visualisasi data yang memudahkan tim akademik dan manajemen dalam memantau tren dropout serta melakukan intervensi berbasis data.
+
+### 🎯 Tujuan Dashboard
+- Menyediakan **gambaran visual menyeluruh** tentang status akhir mahasiswa.
+- Membantu **mengidentifikasi pola dropout** berdasarkan berbagai faktor.
+- Mempermudah pengambilan keputusan dalam strategi **retensi mahasiswa**.
+
+### 🧩 Fitur-Fitur Utama
+
+1. **Dropdown Filter**  
+   Pengguna dapat memfilter tampilan data berdasarkan variabel penting seperti:
+   - Gender
+   - Marital Status
+   - Status Debtor (utang pendidikan)
+
+2. **Visualisasi Dropout Berdasarkan Faktor-Faktor Penting**  
+   - **Dropout Rate by Status**: Distribusi jumlah mahasiswa yang lulus, dropout, dan masih aktif.
+   - **Dropout by Age at Enrollment**: Menunjukkan bahwa mahasiswa berusia muda (18–24 tahun) memiliki angka dropout yang tinggi.
+   - **Dropout by Course**: Diagram pie yang menyoroti jurusan dengan tingkat dropout tertinggi.
+   - **Dropout by Application Order**: Mayoritas dropout berasal dari mahasiswa yang menempatkan program studi tersebut sebagai pilihan utama.
+   - **Status by Scholarship and Debtor**: Tabel komparatif status akhir mahasiswa berdasarkan status beasiswa dan utang.
+   - **Dropout by Curricular Units Evaluations**: Mahasiswa yang tidak aktif mengikuti evaluasi semester 1 cenderung lebih berisiko dropout.
+   - **Heatmap by Age at Enrollment**: Visualisasi intensitas dropout per kelompok usia.
+
+### 🌐 Akses Dashboard
+Dashboard ini dibuat menggunakan **Google Looker Studio** dan dapat diakses secara online melalui tautan berikut:
+
+👉 **[Tautan Looker Studio](https://lookerstudio.google.com/reporting/590c356b-ef78-4ff7-9688-a6c2a51417a1/page/2mPNF)**
+
+Dashboard ini diharapkan menjadi alat bantu penting dalam **transformasi digital bidang akademik**, memungkinkan pengambilan kebijakan yang **lebih cepat, tepat, dan berbasis data real-time**.
 
 ## Menjalankan Sistem Machine Learning
 
