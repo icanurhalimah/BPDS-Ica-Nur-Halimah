@@ -84,7 +84,7 @@ Dataset digunakan dalam format `.csv` dan dimuat langsung menggunakan pustaka `p
 ## Business Dashboard
 Sebagai bagian dari proyek prediksi dropout mahasiswa di Jaya Jaya Institut, telah dibuat sebuah **dashboard interaktif** menggunakan **Google Looker Studio**. Dashboard ini berfungsi sebagai alat bantu visualisasi data yang memudahkan tim akademik dan manajemen dalam memantau tren dropout serta melakukan intervensi berbasis data.
 
-<img src="https://github.com/user-attachments/assets/59ffdf5b-e51f-4855-b384-aa49c2e28779" alt="Dashboard" title="Dashboard">
+<img src="https://github.com/user-attachments/assets/2a073aaa-d286-41b5-99e5-d3e517c9782c" alt="Dashboard" title="Dashboard">
 
 ### Tujuan Dashboard
 - Menyediakan **gambaran visual menyeluruh** tentang status akhir mahasiswa.
@@ -111,7 +111,7 @@ Sebagai bagian dari proyek prediksi dropout mahasiswa di Jaya Jaya Institut, tel
 ### Akses Dashboard
 Dashboard ini dibuat menggunakan **Google Looker Studio** dan dapat diakses secara online melalui tautan berikut:
 
-**[Tautan Looker Studio](https://lookerstudio.google.com/reporting/590c356b-ef78-4ff7-9688-a6c2a51417a1/page/2mPNF)**
+**[Tautan Looker Studio](https://lookerstudio.google.com/reporting/590c356b-ef78-4ff7-9688-a6c2a51417a1/page/p_it8n0avctd)**
 
 Dashboard ini diharapkan menjadi alat bantu penting dalam **transformasi digital bidang akademik**, memungkinkan pengambilan kebijakan yang **lebih cepat, tepat, dan berbasis data real-time**.
 
